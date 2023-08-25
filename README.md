@@ -1,27 +1,16 @@
-# AngularProjectIms
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/386af590-251f-4735-846a-ae0b7117ba78)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/61902b9f-38cb-45b1-a908-727caa10dec6)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/b9ac5d8c-f192-4992-a74b-4e297ba06c48)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/abae203c-0225-4575-99a9-da4628958bfa)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/7cce58bb-db4c-4a7a-a260-f3af8f7aef6a)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/0fbbe071-307f-446c-91e3-16977dbbf098)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/e3ba591a-5e9f-4381-8bdf-1527601d293f)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/4f2e9b00-a654-4d1e-9535-f802da6b7a10)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/b75a1382-4a9f-4d2a-89da-fc34dbe216b8)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/bf42fe2f-a6c8-4249-bd7a-9edf065987fa)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/c0978aa7-f4db-44d1-a4d5-2be0f0892586)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/d83e6283-c0d0-4fa5-afa1-10c728931428)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/3eeb7784-43e9-4960-9502-68c9e1f6e7d6)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/bcdecd92-25bf-417a-955e-3ff512ad2eda)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/e6e39634-0259-4874-84b1-f4e596076793)
+![image](https://github.com/gautamladhava/interview_management_system/assets/109068997/614ad2dd-cfd6-4e22-8040-3e98d6bc3cf6)
