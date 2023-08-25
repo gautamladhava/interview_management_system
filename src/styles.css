@@ -1,1 +1,191 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #ffffff;
+    color: #787878;
+}
+
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+img, i, span, a {
+    display: inline-block;
+}
+
+ol, li, body {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-flude {
+    padding: 0 20px;
+}
+
+.red-text {
+    color: red;
+}
+
+h2 {
+    margin-bottom: 0 !important;
+}
+
+
+.mat-typography p {
+    margin-bottom: 8px;
+}
+
+a.active {
+    background-color: #7367F0;
+    color: #ffffff !important;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8E8D8D;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #8E8D8D;
+    display: block;
+    text-align: start;
+}
+
+input {
+    display: block;
+
+}
+
+.mobile-show {
+    display: none !important;
+}
+
+.mat-mdc-form-field {
+    display: block !important;
+}
+
+.menu-content .menu-content-part {
+    min-height: 100vh;
+}
+
+h4 {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #0D0D0D;
+}
+.custom-form-field .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix{
+padding:  10px 0;
+}
+
+
+.custom-form-field.custom-select  .mat-mdc-select-value{    
+    display: flex;
+}
+
+
+.custom-form-field .mat-mdc-icon-button .mat-mdc-button-touch-target{
+    height: 44px ;
+    width: 44px;
+}
+.custom-form-field .mat-mdc-icon-button.mat-mdc-button-base{
+    --mdc-icon-button-state-layer-size:44px;
+
+    padding: 10px;
+}
+.custom-radio .mat-mdc-radio-button .mdc-form-field{
+    margin-right: 10px;
+}
+.custom-form-field .mat-mdc-form-field-infix{
+    min-height: auto;
+}
+ .mat-mdc-text-field-wrapper{
+    background-color: #ffffff !important;
+}
+.active .overlay {
+    display: block !important;
+}
+.btn{
+    padding: 8px 15px !important;
+    border-radius: 5px;
+    min-width: 72px !important;
+    font-size: 16px;
+    color: #ffffff  !important;
+    background-color: #7367F0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px !important;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #7367F0;
+    line-height: 1;
+}
+.btn.secondary-btn{
+    background-color: transparent !important;
+    border-color: #7367F0 !important;
+    color: #7367F0 !important;
+}
+.btn.disable-btn{
+    background-color: #E8E8E8 !important;
+    color: #9B9A9A !important;
+}
+::ng-deep .mat-mdc-select-value {
+    text-align: left !important;
+    align-items: center;
+    display: flex;
+}
+.btn .mat-mdc-button-touch-target{
+    height: 44px !important;
+}
+@media (max-width:991px) {
+    .active .menu-content .side-menu-part {
+        left: 0 !important;
+        transition: all 0.6s;
+    }
+}
+
+@media (max-width:576px) {
+    p {
+        font-size: 14px;
+
+    }
+
+   
+    .desktop-show {
+        display: none !important;
+    }
+
+    .mobile-show {
+        display: flex !important;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .container-flude {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,73 @@
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+
+}
+
+td,
+th {
+  width: 25%;
+}
+
+
+
+
+
+
+.material-icons {
+  font-size: 30px;
+}
+
+.mat-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-box {
+  display: flex;
+justify-content: flex-end;
+  align-items: center;
+}
+
+.icon-box img {
+  width: 35px;
+  height: 20px;
+}
+
+.mat-mdc-icon-button.mat-mdc-button-base {
+  padding: 5px;
+}
+
+.example-button-row {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.example-button-row button {
+  margin-right: 10px;
+  
+}
+.action{
+  text-align: end;
+}
+@media (max-width:768px){
+    .example-button-row{
+        display: block;
+
+    }
+    .example-button-row button{
+        width: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:576px){
+   ::ng-deep .mat-mdc-paginator-range-label{
+        margin: 0 10px !important;
+    }
+}
+

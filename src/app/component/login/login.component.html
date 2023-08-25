@@ -1,0 +1,22 @@
+<div class="login-content">
+    <a routerLink="/" title="Logo" class="logo"><img src="../../../assets/images/logo.png" alt="logo" />
+    </a>
+    <h2>Welcome to IMS Portal !</h2>
+    <p>Let's get Started, Sign in to your account.</p>
+    <label for="fname">Username <span class="red-text">*</span></label>
+    <mat-form-field appearance="outline" class="custom-form-field">
+        <input matInput placeholder="example@gmail.com" />
+    </mat-form-field>
+    <label for="password">password <span class="red-text">*</span></label>
+    <mat-form-field appearance="outline" class="custom-form-field">
+        <input matInput [type]="hide ? 'password' : 'text'" placeholder="*********" />
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide">
+            <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+        </button>
+    </mat-form-field>
+    <a class="right-text" routerLink="../reset-password"> Forgot Password?</a>
+    <button mat-raised-button  routerLink="/home" class="btn">
+        LOGIN
+    </button>
+</div>

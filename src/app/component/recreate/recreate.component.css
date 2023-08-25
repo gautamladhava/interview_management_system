@@ -1,0 +1,14 @@
+.reset-password{
+   
+    margin: auto;
+   
+    text-align: center;
+}
+.mat-mdc-raised-button{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+p{
+    color: #3f51b5;
+}

@@ -1,0 +1,48 @@
+.interview-box{
+    background-color: #ffffff;
+    padding: 20px;
+}
+h4{
+    text-align: start;
+}
+
+textarea
+{
+   resize: none;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.mat-mdc-form-field{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+
+.example-full-width{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.example-button-row{
+    margin: -10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #E8E8E8;
+}
+.example-button-row button{
+    margin: 10px;
+}
+
+@media (max-width:576px){
+    .form{
+        margin: 0 ;
+    }
+    .mat-mdc-form-field{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 ;
+    }
+}

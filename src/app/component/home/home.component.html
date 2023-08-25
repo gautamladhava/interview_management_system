@@ -1,0 +1,135 @@
+<div class="container">
+    <div class="menu-content">
+        <div class="overlay" (click)="close()"></div>
+        <div class="side-menu-part">
+            <div class="close-btn" id="close" (click)="close()"><img src="../../../assets/images/cross.png"> </div>
+            <a routerLink="/" title="Logo" class="logo"> <img src="../../../assets/images/logo.png"> </a>
+            <ul class="side-menu">
+                <li><a routerLink="dashboard" (click)="getvalue('Admin Portal')" routerLinkActive="active"
+                        title="Dashboard" value="Admin Portal">Dashboard</a> </li>
+                <li><a routerLink="interviewers" (click)="getvalue('Interviewers')" routerLinkActive="active"
+                        title="Interviewers" value="Interviewers">Interviewers</a> </li>
+                <li><a routerLink="HRs" title="HRs" (click)="getvalue('HRs')" routerLinkActive="active"
+                        value="HRs">HRs</a> </li>
+                <li><a routerLink="designations" title="Designations" (click)="getvalue('Job Designations')"
+                        routerLinkActive="active" value="Job Designations">Job Designations </a>
+                </li>
+                <li><a routerLink="schedule" title="Designations" (click)="getvalue('Admin Portal')"
+                        routerLinkActive="active" value="Job Designations">Available Schedule </a>
+                </li>
+                <li><a routerLink="technologies" title="Technologies" routerLinkActive="active" value="Technologies "
+                        (click)="getvalue('Technologies')">Technologies</a> </li>
+                <li>
+                    <ul class="icon-list mobile-show">
+                        <li>
+                            <button mat-icon-button [matMenuTriggerFor]="belowMenu2"><img
+                                    src="../../../assets/images/moon.svg">
+                            </button>
+                            <mat-menu #belowMenu2="matMenu" yPosition="below" xPosition="before">
+                                <ul class="list">
+                                    <li><a routerLink="dashboard">Dark Mode</a> </li>
+                                    <li><a routerLink="profile">Light Mode</a> </li>
+                                </ul>
+                            </mat-menu>
+                        </li>
+                        
+                        <li>
+                            <button mat-icon-button [matMenuTriggerFor]="belowMenu1"> <mat-icon matBadge="4"
+                                    matBadgeColor="warn" mat-button><img src="../../../assets/images/bell.svg">
+                                </mat-icon>
+                            </button>
+                            <mat-menu #belowMenu1="matMenu" yPosition="below" xPosition="before" class="sub-menu">
+                                <ul class="list1">
+                                    <li><a routerLink="dashboard">notification 1</a> </li>
+                                    <li><a routerLink="profile">notification 2</a> </li>
+                                    <li><a routerLink="dashboard">notification 3</a> </li>
+                                    <li><a routerLink="profile">notification 4</a> </li>
+                                    <li><a routerLink="dashboard">notification 5</a> </li>
+                                    <li><a routerLink="profile">notification 6</a> </li>
+                                    <li><a routerLink="dashboard">notification 7</a> </li>
+                                    <li><a routerLink="profile">notification 8</a> </li>
+                                    <li><a routerLink="profile" class="more-notification">See All</a> </li>
+                                </ul>
+                            </mat-menu>
+
+                        </li>
+                        <li>
+                            <button mat-icon-button [matMenuTriggerFor]="belowMenu"><img
+                                    src="../../../assets/images/profile.svg"> </button>
+                            <mat-menu #belowMenu="matMenu" yPosition="below" xPosition="before">
+                                <ul class="list">
+                                    <li><a routerLink="dashboard">Dashboard</a> </li>
+                                    <li><a routerLink="profile" routerLink="edit-profile">MyProfile</a> </li>
+                                    <li><a routerLink="news">Newsletter</a> </li>
+                                    <li><a routerLink="Settings">Settings</a> </li>
+                                    <li><a routerLink="/login">Log Out</a> </li>
+                                </ul>
+                            </mat-menu>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-content-part">
+            <div class="title-bar">
+                <div class="open-btn"><img src="../../../assets/images/open.png" (click)="open()"> </div>
+                <h3>{{curr_tab}}</h3>
+                <ul class="icon-list desktop-show">
+                    <li>
+                        <button mat-icon-button [matMenuTriggerFor]="belowMenu2"><img
+                                src="../../../assets/images/moon.svg">
+                        </button>
+                        <mat-menu #belowMenu2="matMenu" yPosition="below" xPosition="before">
+                            <ul class="list">
+                                <li><a routerLink="dashboard">Dark Mode</a> </li>
+                                <li><a routerLink="profile">Light Mode</a> </li>
+                            </ul>
+                        </mat-menu>
+                    </li>
+
+                    <li>
+                        <button mat-icon-button [matMenuTriggerFor]="belowMenu1"> <mat-icon matBadge="4"
+                                matBadgeColor="warn" mat-button><img src="../../../assets/images/bell.svg">
+                            </mat-icon>
+                        </button>
+                        <mat-menu #belowMenu1="matMenu" yPosition="below" xPosition="before" class="sub-menu">
+                            <ul class="list1">
+                                <li><a routerLink="dashboard">notification 1</a> </li>
+                                <li><a routerLink="profile">notification 2</a> </li>
+                                <li><a routerLink="dashboard">notification 3</a> </li>
+                                <li><a routerLink="profile">notification 4</a> </li>
+                                <li><a routerLink="dashboard">notification 5</a> </li>
+                                <li><a routerLink="profile">notification 6</a> </li>
+                                <li><a routerLink="dashboard">notification 7</a> </li>
+                                <li><a routerLink="profile">notification 8</a> </li>
+                                <li><a routerLink="profile" class="more-notification">See All</a> </li>
+                            </ul>
+                        </mat-menu>
+
+                    </li>
+                    <li>
+                        <button mat-icon-button [matMenuTriggerFor]="belowMenu"><img
+                                src="../../../assets/images/profile.svg"> </button>
+                        <mat-menu #belowMenu="matMenu" yPosition="below" xPosition="before">
+                            <ul class="list">
+                                <li><a routerLink="dashboard">Dashboard</a> </li>
+                                <li><a routerLink="profile">MyProfile</a> </li>
+                                <li><a routerLink="news">Newsletter</a> </li>
+                                <li><a routerLink="Settings">Settings</a> </li>
+                                <li><a routerLink="/login">Log Out</a> </li>
+                            </ul>
+                        </mat-menu>
+                    </li>
+                </ul>
+            </div>
+            <div class="component">
+                <router-outlet></router-outlet>
+            </div>
+
+            <div class="bottom-content">
+                <p>Version:22.10.14</p>
+                <p>Copyright &copy;TatvaSoft All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
